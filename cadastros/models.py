@@ -15,4 +15,3 @@ class Cadastros(models.Model):
     users = models.CharField(primary_key=True, max_length= 70)
     password = models.CharField(max_length=15, default=random_pass) 
     nascimento = models.DateField()
-

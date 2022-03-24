@@ -23,7 +23,7 @@ from cadastros.api import views as cadastrosviewsets
 route = routers.DefaultRouter()
 
 route.register(r'cadastros',cadastrosviewsets.CadastrosViewSet, basename = "Cadastros")
-
+route.register(r'getUsers',cadastrosviewsets.UsersViewSet, basename = "Cadastros")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
