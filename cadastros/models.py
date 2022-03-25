@@ -7,7 +7,7 @@ import django
 from django.db import models
 from uuid import uuid4
 from django.contrib.auth.models import User
-import random
+
 
 random_pass = get_random_string(length=15)
 
